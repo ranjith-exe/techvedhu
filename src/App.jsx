@@ -11,7 +11,7 @@ import NotFound from './pages/notfound';
 
 function App() {
   return (
-    <Router basename="/techvedhu"> {/* Specify the base path for GitHub Pages */}
+    <Router> {/* Specify the base path for GitHub Pages */}
       <div>
         {/* Header will be displayed on all pages */}
         <Header />
@@ -19,7 +19,7 @@ function App() {
         <main>
           <Routes>
             {/* Define routes for your application */}
-            <Route path="/techvedhu" element={<Home />} />
+            <Route path="/techvedhu/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 */}
