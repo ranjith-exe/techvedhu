@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.shadow-bottom-inner-blue {
+    /* Inner blue shadow at the bottom */
+    box-shadow: inset 0px -4px 6px rgba(42, 134, 255, 0.9), /* Soft inner blue shadow at the bottom */
+                -2px -2px 8px rgba(0, 0, 0, 0.33),         /* Soft outer shadow on the left */
+                2px -2px 8px rgba(0, 0, 0, 0.33),          /* Soft outer shadow on the right */
+                2px -0px 8px rgba(0, 0, 0, 0.33);          /* Soft outer shadow on the top */
+  }
+  
