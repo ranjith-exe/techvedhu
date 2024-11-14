@@ -19,7 +19,7 @@ function App() {
         <main>
           <Routes>
             {/* Define routes for your application */}
-            <Route path="/" element={<Home />} />
+            <Route path="/techvedhu" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 */}
