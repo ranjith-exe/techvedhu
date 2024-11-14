@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Import the Header, Footer, and pages
-import Header from './include/theheader';
-import Footer from './include/thefooter';
-import Home from './pages/home';
-import About from './pages/about';
-import Contact from './pages/contact';
-import NotFound from './pages/notfound';
+import Header from './src/include/theheader';
+import Footer from './src/include/thefooter';
+import Home from './src/pages/home';
+import About from './src/pages/about';
+import Contact from './src/pages/contact';
+import NotFound from './src/pages/notfound';
 
 function App() {
   return (
